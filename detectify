@@ -129,9 +129,6 @@
       doc 'sch_set <profile> <freq> <ts>' 'SET scan shcedule for profile, specyfiying frequency (once|daily|weekly|biweekly|monthly) and timestamp (YYYY-MM-DDTHH:mm:ssZ)'
       doc 'sch_rm <profile> <freq>* <ts>*' 'REM scan shcedules for profile (optionally remove one by specifying it)'
       echo ''
-      
-      doc 'owner <profile> <user>' 'Update the asset owner for profile'
-      echo ''
       echo ''
     ;;
     # [END help]
